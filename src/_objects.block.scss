@@ -1,0 +1,9 @@
+.block{
+	display: block;
+	&.is-inline{
+		display: inline-block;
+	}
+	&.has-border{
+		border: 1px solid $gray-light;
+	}
+}

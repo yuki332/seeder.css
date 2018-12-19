@@ -1,0 +1,37 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: $font-roboto;
+	font-size: $font-size-normal;
+	color: $font-color-primary;
+	letter-spacing: 1px;
+	font-weight: 200;
+}
+h1{
+	font-size: 3rem;
+	font-weight: 600;
+	letter-spacing: 2px;
+	line-height: 1.25;
+}
+h2{
+	font-size: 2.5rem;
+}
+h3{
+	font-size: 2rem;
+}
+a{
+	color: $font-color-link;
+}
+table{
+	border: 1px solid $gray-light;
+	tr{
+		border-bottom: 1px solid $gray-light;
+	}
+	th, td{
+		padding: $space-small;
+		&:not(:last-child){
+			border-right: 1px solid $gray-light;
+		}
+	}
+}

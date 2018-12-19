@@ -1,0 +1,14 @@
+.has-shadow{
+	box-shadow: 0 5px 10px -5px $gray !important;
+}
+.has-inner-shadow{
+	box-shadow: inset 0 0 10px 1px #00000050 !important;
+}
+.is-rounded{
+	border-radius: 13px !important;
+	border: 1px solid $gray-lighter !important;
+}
+.is-centered{
+	margin-left: auto;
+	margin-right: auto;
+}

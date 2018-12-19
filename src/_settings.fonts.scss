@@ -1,0 +1,19 @@
+// google font
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Mono');
+// font-family
+$font: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
+$font-gothic: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+$font-lato: 'Lato', sans-serif;
+$font-roboto: 'Roboto', sans-serif;
+$font-mono: 'PT Mono', monospace;
+
+// font-sizes
+$font-size-normal: 18px;
+$font-size-large: 1.3rem;
+$font-size-small: 0.9rem;
+
+// title
+$title: 1.5rem;
+$subtitle: $font-size-large;

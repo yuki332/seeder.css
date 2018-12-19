@@ -1,0 +1,37 @@
+/////////////////////////////////
+// ITCSS
+// settings -> global variables
+// tools -> mixins
+// generic -> reset, ground zero style
+// elements -> base element => headings, lists, paragraph
+// objects -> no cosmetic design patterns :: width, display <= start using class here
+// components -> cosmetic design, UI
+// trumps -> helper <= use !important
+/////////////////////////////////
+/////////////////////////////////
+// atomic design
+// atom -> button, label, input
+// modules -> group of button, label, input => search bar
+// organisms -> component => header, footer, blog summary list
+// template -> skelton layout of page
+// page -> page with real content
+/////////////////////////////////
+/////////////////////////////////
+// naming rule
+// BEM
+// Block__Element--Modifier
+// Block--modifier
+// Block__Element
+//  or
+// Block__Element , is or has-Modifier
+// Block, is or has-Modifier
+/////////////////////////////////
+
+@import "settings"; // variables
+@import "tools"; // mixins
+@import "generic"; // reset, ground 0 style
+@import "elements"; // raw elements e.g. h1, p, form etc..
+@import "objects"; // no cosmetic style e.g. layout related styles
+@import "components"; // cosmetic style e.g. button, header, nav
+@import "trumps"; // helper (here you can use !important)
+@import "pages"; // page specific decoration

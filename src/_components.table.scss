@@ -1,0 +1,37 @@
+.table{
+	&-row{
+		border-bottom: 1px solid $gray-light;
+	}
+	&-cell{
+		padding: $space-small;
+	}
+	&.is-rounded{
+		border-collapse: separate;
+		border-radius: 15px;
+		overflow: hidden;
+		tr:first-child{
+			th:first-child,
+			td:first-child{
+				border-radius: 15px 0 0 0;
+			}
+			th:last-child
+			td:last-child{
+				border-radius: 0 15px 0 0;
+			}
+		}
+		tr:last-child{
+			th:first-child,
+			td:first-child{
+				border-radius: 0 0 0 15px;
+			}
+			th:last-child
+			td:last-child{
+				border-radius: 0 0 15px 0;
+			}
+		}
+		tr:not(:last-child) > th,
+		tr:not(:last-child) > td{
+			border-bottom: 1px solid $gray-light;
+		}
+	}
+}

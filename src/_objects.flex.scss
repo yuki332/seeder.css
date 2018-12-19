@@ -1,0 +1,14 @@
+.flex{
+	@include for-size(tablet){
+		display: flex;
+	}
+	&.wrap{
+		flex-wrap: wrap;
+	}
+}
+.is-flex-between{
+	justify-content: space-between;
+}
+.is-flex-around{
+	justify-content: space-around;
+}

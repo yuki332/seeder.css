@@ -1,0 +1,13 @@
+.code{
+	display: block;
+	background: $white-ter;
+	padding: $space-smaller $space-small;
+	color: $gray;
+	font-weight: lighter;
+	font-family: $font-mono;
+	font-size: $font-size-small;
+	&.inline{
+		display: inline-block;
+		padding: 0 3px;
+	}
+}

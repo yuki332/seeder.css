@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS Original Template</title>
+	<link rel="stylesheet" href="dist/main.css">
+</head>
+<body>
+	<header class="header">
+		<nav class="nav">
+			<a href="">
+				<h3>CSS Original Template</h3>
+			</a>
+			<div class="nav-end">
+				<ul class="nav-items">
+					<li class="nav-item"><a href="#">documents</a></li>
+					<li class="nav-item"><a href="#">about</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<section class="hero">
+			<div class="container">
+				<h1>Hello World!!!</h1>
+				<p class="text-box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span class="text-strong text-emphasize">Molestias</span> eius dicta laudantium, architecto beatae id ipsum, sapiente suscipit nam quasi corrupti enim officiis aliquid, perspiciatis sunt maiores maxime rerum quisquam.</p>
+			</div>
+		</section>
+		<section class="section is-medium bg-blue-light">
+			<div class="container">
+				<h2 class="title"># Headings Section <span class="subtitle text-emphasize">this is emphasize</span></h2>
+				<div class="content">
+					<h1>This is example of [h1]</h1>
+					<p class="text-box">This is example of heading 1. It may used for <span class="text-strong text-emphasize">title.</span></p>
+					<h2>This is example of [h2]</h2>
+					<p class="text-box">This is example of heading 2. It may used for <span class="text-strong text-emphasize">title.</span></p>
+					<h3>This is example of [h3]</h3>
+					<p class="text-box">This is example of heading 3. It may used for <span class="text-strong text-emphasize">subtitle.</span></p>
+					<p class="text-box">
+						<span class="code inline">.subtitle</span> needs to be used with title since it just change its font-size.<br>
+						<span class="code inline">.text-emphasis</span> with <span class="code inline">span</span> tag is used for changing font color.<br>
+						<span class="code inline">.is-thin</span> will be used with <span class="code inline">.title</span> or <span class="code inline">.subtitle</span> for making title font-weight lighter.
+					</p>
+				</div>
+				<h3 class="title is-thin">Example Code</h3>
+				<div class="content">
+					<code class="code has-shadow">
+						&lt;h1 class="title"&gt;title here&lt;/h1&gt;<br>
+						&lt;h1 class="title"&gt;title &lt;span class="subtitle"&gt;here&lt;/span&gt;&lt;/h1&gt;<br>
+					</code>
+				</div>
+				<div class="content no-bottom-sp">
+					<p class="text">by the way...</p>
+					<div class="text-box">
+						you can use <span class="code inline">.code</span> <span class="code inline">.inline</span> with <span class="code inline">span</span> tag, emmbled work(s) will be like this.
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="section is-medium bg-green">
+			<div class="container">
+				<h2 class="title"># Cards Component</h2>
+				<div class="text-box content">
+					Here is a <span class="text-emphasize">very simple</span> card component. It can have only card body or combination of header and footer.
+				</div>
+				<div class="flex is-flex-between">
+					<div class="one-4-w">
+						<p class="text is-centered">
+							only card body
+						</p>
+						<div class="card">
+							<div class="card-body">
+								<div class="text-box">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat libero voluptate debitis id obcaecati sunt accusamus
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="one-4-w">
+						<p class="text is-centered">
+							with header
+						</p>
+						<div class="card">
+							<div class="card-header bg-gray">
+								<p>card header</p>
+							</div>
+							<div class="card-body">
+								<div class="text-box">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat libero voluptate debitis id obcaecati sunt accusamus
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="one-4-w">
+						<p class="text is-centered">
+							with header and footer
+						</p>
+						<div class="card">
+							<div class="card-header bg-gray">
+								<p>card header</p>
+							</div>
+							<div class="card-body">
+								<div class="text-box">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat libero voluptate debitis id obcaecati sunt accusamus
+								</div>
+							</div>
+							<div class="card-footer bg-gray">
+								<p>footer</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="text-box">
+					The example above is a bit ugly because every cards' height is <span class="text-emphasize">different</span>.<br>
+					However, please don't think card component will be always this ugly!<br>
+					You wouldn't use them together in one place like this example!
+				</div>
+			</div>
+		</section>
+	</main>
+	<section class="section bg-gray-light">
+		<h1 class="bg-purple">#Card</h1>
+		<div class="container">
+			<div class="flex is-flex-around">
+				<div class="one-4-w">
+					<div class="card has-shadow">
+						<div class="card-header bg-yellow-light">
+							<div class="flex">
+								<img src="" alt="">
+								<h3>card title</h3>
+							</div>
+						</div>
+						<div class="card-body">
+							<p>this is simple card.</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus nulla cupiditate praesentium, reiciendis nostrum voluptate voluptatum fugiat nam doloremque officia eveniet animi hic quia? Quo voluptates accusantium aspernatur maiores ratione!</p>
+						</div>
+					</div>
+				</div>
+				<div class="one-4-w card">
+					<div class="card-body bg-green">
+						<p>this is simple card.</p>
+					</div>
+				</div>
+				<div class="item one-4-w card is-rounded">
+					<p>this is simple card.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="section has-inner-shadow">
+		<h1>#Colors</h1>
+		<div class="container is-narrow is-centered">
+			<div class="flex is-flex-around">
+				<div class="container">
+					<table class="table">
+						<tr>
+							<th>Variable</th>
+							<th>HEX</th>
+							<th>Color</th>
+						</tr>
+						<tr>
+							<td>$green</td>
+							<td>#63d2b3</td>
+							<td style="background: #63d2b3"></td>
+						</tr>
+						<tr>
+							<td>$green-light</td>
+							<td>#65d261</td>
+							<td style="background: #65d261"></td>
+						</tr>
+						<tr>
+							<td>$blue</td>
+							<td>#3273dc</td>
+							<td style="background: #3273dc"></td>
+						</tr>
+						<tr>
+							<td>$blue-light</td>
+							<td>#3f9dee</td>
+							<td style="background: #3f9dee"></td>
+						</tr>
+					</table>
+				</div>
+				<table class="table is-rounded">
+					<tr>
+						<th>Variable</th>
+						<th>HEX</th>
+						<th>Color</th>
+					</tr>
+					<tr>
+						<td>$yellow</td>
+						<td>#f7c33f</td>
+						<td style="background: #f7c33f"></td>
+					</tr>
+					<tr>
+						<td>$yellow-light</td>
+						<td>#fbdb57</td>
+						<td style="background: #fbdb57"></td>
+					</tr>
+					<tr>
+						<td>$red</td>
+						<td>#ea445f</td>
+						<td style="background: #ea445f"></td>
+					</tr>
+					<tr>
+						<td>$red-light</td>
+						<td>#ed725d</td>
+						<td style="background: #ed725d"></td>
+					</tr>
+					<tr>
+						<td>$purple</td>
+						<td>#9c42b7</td>
+						<td style="background: #9c42b7"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</section>
+	<section class="section">
+		<h1>test</h1>
+		<div class="container"></div>
+	</section>
+</body>
+</html>

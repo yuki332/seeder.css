@@ -1,0 +1,57 @@
+.bg{
+	&-gray{
+		background-color: $gray-lighter;
+	}
+	&-gray-light{
+		background-color: $white-ter;
+	}
+	&-green{
+		color: $white;
+		background-color: $green;
+		.text-emphasize{
+			color: $purple;
+		}
+	}
+	&-green-light{
+		color: $white;
+		background-color: $green-light;
+	}
+	&-blue{
+		color: $white;
+		background-color: $blue;
+		.text-emphasize{
+			color: $yellow;
+		}
+	}
+	&-blue-light{
+		color: $white;
+		background-color: $blue-light;
+		.text-emphasize{
+			color: $yellow-light;
+		}
+	}
+	&-yellow{
+		color: $white;
+		background-color: $yellow;
+	}
+	&-yellow-light{
+		color: $white;
+		background-color: $yellow-light;
+	}
+	&-red{
+		color: $white;
+		background-color: $red;
+	}
+	&-red-light{
+		color: $white;
+		background-color: $red-light;
+	}
+	&-purple{
+		color: $white;
+		background-color: $purple;
+	}
+	&-white{
+		color: $font-color-primary;
+		background: $white;
+	}
+}

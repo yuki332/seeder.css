@@ -1,0 +1,27 @@
+.nav{
+	display: flex;
+	align-items: stretch;
+	padding: $space-small;
+	max-width: $max-width;
+	margin: 0 auto;
+	&-items{
+		display: flex;
+	}
+	&-item{
+		display: block;
+		padding: $space-smaller;
+		color: $font-color-primary;
+	}
+	&-start{
+		display: flex;
+		justify-content: flex-start;
+		margin-right: auto;
+		align-items: center;
+	}
+	&-end{
+		display: flex;
+		justify-content: flex-end;
+		margin-left: auto;
+		align-items: center;
+	}
+}

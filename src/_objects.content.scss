@@ -1,0 +1,10 @@
+.content{
+	margin-bottom: $space-small;
+	p:not(:last-child){
+		margin-bottom: $space-smaller;
+	}
+	&.no-bottom-sp{
+		margin-bottom: 0;
+	}
+}
+

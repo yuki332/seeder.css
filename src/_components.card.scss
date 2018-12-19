@@ -1,0 +1,16 @@
+.card{
+	border: 1px solid $gray-lighter;
+	border-radius: 5px;
+	background: $white;
+	color: $font-color-primary;
+	&-header{
+		padding: $space-small;
+		border-bottom: 1px solid $gray-lighter;
+	}
+	&-body{
+		padding: $space-small;
+	}
+	&-footer{
+		padding: $space-small;
+	}
+}

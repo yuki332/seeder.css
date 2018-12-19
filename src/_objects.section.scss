@@ -1,0 +1,10 @@
+.section{
+	display: block;
+	padding: 3rem 1.5rem;
+	&.is-medium{
+		padding: 6rem 1.5rem;
+	}
+	&.is-large{
+		padding: 12rem 1.5rem;
+	}
+}

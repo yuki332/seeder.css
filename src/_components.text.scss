@@ -1,0 +1,33 @@
+.text{
+	line-height: 1.5;
+	margin-bottom: $space-smaller;
+	&-box{
+		line-height: 1.5;
+		font-weight: 100;
+	}
+	&-strong{
+		font-weight: 600;
+	}
+	&-emphasize{
+		color: $red-light;
+	}
+	&.is-centered{
+		text-align: center;
+	}
+}
+
+.title,
+.subtitle{
+	font-family: $font-lato;
+	font-weight: 600;
+	letter-spacing: .2rem;
+	word-break: break-word;
+	margin-bottom: $space-small;
+	&.is-thin{
+		font-weight: 300;
+	}
+}
+.subtitle{
+	font-size: $subtitle;
+
+}
