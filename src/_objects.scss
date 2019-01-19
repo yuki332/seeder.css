@@ -1,8 +1,8 @@
-@import "objects.container"; // a simple container.
-@import "objects.content";
 @import "objects.section"; // top level divider box.
-@import "objects.hero"; // it can be used instead of section.
 @import "objects.flex"; // set flex.
+@import "objects.container"; // a simple container.
+@import "objects.hero"; // it can be used instead of section.
+@import "objects.content";
 @import "objects.block"; // smaller container without padding.
 @import "objects.width"; // width setter
 @import "objects.background"; // bg color setter

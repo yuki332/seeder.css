@@ -23,6 +23,13 @@ h3{
 a{
 	color: $font-color-link;
 }
+p{
+	line-height: 1.5;
+	font-weight: 100;
+}
+*>p:not(:last-child){
+	margin-bottom: $space-smaller;
+}
 table{
 	border: 1px solid $gray-light;
 	tr{

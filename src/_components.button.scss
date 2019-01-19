@@ -1,0 +1,14 @@
+.btn{
+	padding: .5rem;
+	text-align: center;
+	background: $white-ter;
+	&.is-large{
+		font-size: $font-size-large;
+	}
+	&.is-larger{
+		font-size: calc(18px * 2);
+	}
+	&.is-full-width{
+		width: 100%;
+	}
+}

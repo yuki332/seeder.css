@@ -1,9 +1,9 @@
 .text{
-	line-height: 1.5;
-	margin-bottom: $space-smaller;
-	&-box{
-		line-height: 1.5;
-		font-weight: 100;
+	&-small{
+		font-size: $font-size-small;
+	}
+	&-large{
+		font-size: $font-size-large;
 	}
 	&-strong{
 		font-weight: 600;

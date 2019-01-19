@@ -25,3 +25,10 @@
 .one-12-w{
 	width: 8%;
 }
+
+.half-w, .one-3-w, .one-4-w, .one-5-w,
+.one-6-w, .one-8-w, .one-10-w, .one-12-w{
+	@include for-size(phone-only){
+		width: 100%;
+	}
+}

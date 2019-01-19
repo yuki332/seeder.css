@@ -5,6 +5,35 @@
 	&-cell{
 		padding: $space-small;
 	}
+	&.has-no-border{
+		border: none;
+		tr, th, td{
+			border: none;
+		}
+	}
+	&.has-less-space{
+		th, td{
+			padding: $space-smaller;
+		}
+	}
+	&.has-bg-even{
+		tr:nth-child(2n){
+			background: $white-ter;
+		}
+	}
+	&.has-bg-odd{
+		tr:nth-child(2n+1){
+			background: $white-ter;
+		}
+	}
+	&.has-bottom-border{
+		border: none;
+		border-bottom: 1px solid $gray-light;
+		tr, th, td{
+			border: none;
+			border-bottom: 1px solid $gray-light;
+		}
+	}
 	&.is-rounded{
 		border-collapse: separate;
 		border-radius: 15px;

@@ -4,7 +4,8 @@
 	&.is-narrow{
 		max-width: $max-width-narrow;
 	}
-	div:not(:last-child){
-		margin-bottom: $space-small;
+	&>div:not(:last-child),
+	 >table:not(:last-child){
+		margin-bottom: $space-normal;
 	}
 }
